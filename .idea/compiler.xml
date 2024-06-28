@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="imagedetector-impl" />
+        <module name="imagedetector-api" />
+        <module name="imagedetector-common" />
+        <module name="imagedetector-controller" />
+        <module name="imagedetector-web" />
+        <module name="imagedetector-tool" />
+        <module name="imagedetector-pack" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="imagedetector" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
+      <module name="imagedetector-api" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
+      <module name="imagedetector-common" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
+      <module name="imagedetector-controller" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
+      <module name="imagedetector-impl" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
+      <module name="imagedetector-pack" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
+      <module name="imagedetector-tool" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
+      <module name="imagedetector-web" options="--add-exports=java.xml/com.sun.org.apache.xml.internal.serializer=ALL-UNNAMED --add-exports=java.xml/com.sun.org.apache.xml.internal.utils=ALL-UNNAMED" />
+    </option>
+  </component>
+</project>
